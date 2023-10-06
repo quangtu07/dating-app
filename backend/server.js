@@ -15,7 +15,7 @@ const connection_url = 'mongodb+srv://admin:admin@cluster0.wdlrxh2.mongodb.net/?
 //Middleware
 // middleware
 const corsOptions = {
-    origin: "http://localhost:3000" // frontend URI (ReactJS)
+    origin: "https://dating-app-client.onrender.com" // frontend URI (ReactJS)
 }
 app.use(express.json())
 app.use(Cors(corsOptions))
