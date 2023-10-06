@@ -10,7 +10,7 @@ dotenv.config()
 const app = express();
 const port = process.env.PORT || 8001;
 
-const connection_url = 'mongodb+srv://admin:admin@cluster0.wdlrxh2.mongodb.net/dating-app?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://admin:admin@cluster0.wdlrxh2.mongodb.net/?retryWrites=true&w=majority'
 
 //Middleware
 // middleware
