@@ -19,7 +19,7 @@ const corsOptions = {
 }
 app.use(express.json())
 app.use(Cors(corsOptions))
-app.use('/', express.static('build'))
+app.use('/', express.static('public'))
 
 //DB Config
 
